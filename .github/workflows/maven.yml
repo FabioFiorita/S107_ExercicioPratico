@@ -63,7 +63,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run Shell scripts
-        run: sh scripts/*.sh
+        run: sh scripts/sendEmail.sh
         env:
           ENVIRONMENT_VARIABLE_NAME: $EMAIL
 
