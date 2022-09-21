@@ -3,9 +3,6 @@
 
 name: Java CI with Maven
 
-env:
-  EMAIL: fabiolfp@gmail.com
-
 on:
   push:
     branches: [ "master" ]
@@ -65,5 +62,5 @@ jobs:
       - name: Run Shell scripts
         run: sh scripts/sendEmail.sh
         env:
-          ENVIRONMENT_VARIABLE_NAME: $EMAIL
+          EMAIL: fabiolfp@gmail.com
 
