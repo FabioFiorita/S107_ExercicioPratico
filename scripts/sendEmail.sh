@@ -1,2 +1,2 @@
 sudo apt install mailutils
-mail -s 'Pipeline executado com sucesso!' "$EMAIL"
+mail -s 'Pipeline executado com sucesso!' ${EMAIL}
