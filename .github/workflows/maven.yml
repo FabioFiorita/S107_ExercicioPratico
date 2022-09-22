@@ -62,5 +62,5 @@ jobs:
       - name: Run Shell scripts
         run: sh scripts/sendEmail.sh
         env:
-          EMAIL: fabiolfp@gmail.com
+          EMAIL: fabio.pontes@gec.inatel.br
 
