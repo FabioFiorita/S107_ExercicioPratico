@@ -1,4 +1,4 @@
-# S107_ExercicioPratico
+# S107 ExercicioPratico
 
 ### Integrantes:
 ### Fábio Luiz Fiorita Pontes - 1553 - GEC
